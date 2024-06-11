@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="@mahesh/cordova-plugin-wkwebview-inject-cookie" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>WKWebViewInjectCookie</name>
+  <description>Cordova plugin to inject a dummy cookie in a WKWebView instance to sync cookies.</description>
+  <license>Apache-2.0</license>
+  <keywords>cordova,wkwebview,cookies,first</keywords>
+  <engines>
+    <engine name="cordova" version=">=6.0.0" />
+    <engine name="cordova-ios" version=">=4.0.0" />
+  </engines>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="WKWebViewInjectCookie">
+        <param name="ios-package" value="WKWebViewInjectCookie" />
+      </feature>
+    </config-file>
+    <js-module src="www/cookiesync.js" name="cookiesync">
+      <clobbers target="wkWebView" />
+    </js-module>
+    <header-file src="src/ios/WKWebViewInjectCookie.h" />
+    <source-file src="src/ios/WKWebViewInjectCookie.m" />
+  </platform>
+</plugin>

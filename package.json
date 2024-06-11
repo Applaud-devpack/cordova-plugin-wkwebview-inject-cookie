@@ -1,0 +1,31 @@
+{
+  "name": "@mahesh/cordova-plugin-wkwebview-inject-cookie",
+  "description": "Cordova plugin to inject a dummy cookie in a WKWebView instance. This is necessary to get the sync process started.",
+  "version": "1.0.0",
+  "author": "Mahesh",
+  "cordova": {
+    "id": "@mahesh/cordova-plugin-wkwebview-inject-cookie",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cookies",
+    "cordova",
+    "ecosystem:cordova",
+    "first",
+    "get",
+    "init",
+    "install",
+    "plugin",
+    "sync",
+    "inject",
+    "wkwebview"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cordova-plugin-wkwebview-inject-cookie.git"
+  }
+}
