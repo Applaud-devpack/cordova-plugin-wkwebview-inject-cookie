@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="@mahesh/cordova-plugin-wkwebview-inject-cookie" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="@maheshkalimi/cordova-plugin-wkwebview-inject-cookie" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
   <name>WKWebViewInjectCookie</name>
   <description>Cordova plugin to inject a dummy cookie in a WKWebView instance to sync cookies.</description>
   <license>Apache-2.0</license>
